@@ -36,7 +36,8 @@ public class server {
         try {
 // socket server
             s = new ServerSocket(9999);
-            System.out.println("Hola!! ...Esperando Cliente");
+            System.out.println("Hola!! ...Espera");
+            System.out.println("HOLA!!");
 //Invoco el metodo accept del socket servidor, me devuelve una referencia al socket cliente
             sc = s.accept();
             System.out.println("Se conecto.." + sc);
